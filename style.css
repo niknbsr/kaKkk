@@ -1,1 +1,10 @@
+img {
+    width: 250px;
+    height: 100px;
+}
 
+#absolute {
+    position: absolute;
+    top: 17%;
+    left: 20%;
+}
