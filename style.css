@@ -5,6 +5,35 @@ img {
 
 #absolute {
     position: absolute;
-    top: 17%;
-    left: 20%;
+    top: 15%;
+    left: 10%
+}
+
+/* DIVs are normally bock elements but we can change that with the display property */
+#container-rel {
+    background-color: brown;
+    display: inline-block;
+}
+
+#relative {
+    position: relative;
+    top: 2px;
+    left: -10px;
+    z-index: 50;
+    /* z-index affects DEPTH of positioned elements */
+}
+
+#fixed {
+    position: fixed;
+    right: 0;
+
+}
+
+#static {
+    
+}
+
+body {
+    background-color: aqua;
+    height: 200%;
 }
